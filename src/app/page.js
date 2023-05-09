@@ -9,9 +9,9 @@ export default function Home() {
           <div>
             <Image src="/proxie.svg" alt="proxie logo" width={50} height={50} />
           </div>
-          <div>
+          {/* <div>
             <Image src="/menu.svg" alt="hamburger" width={30} height={30} />
-          </div>
+          </div> */}
         </div>
         <br />
         <br />
@@ -47,9 +47,9 @@ export default function Home() {
           <div>
             <Image src="/proxie.svg" alt="proxie logo" width={80} height={50} />
           </div>
-          <div>
+          {/* <div>
             <Image src="/menu.svg" alt="hamburger" width={40} height={30} />
-          </div>
+          </div> */}
         </div>
         <br />
         <br />
@@ -71,9 +71,9 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="w-1/3 absolute right-0 pt-20 flex flex-row items-center justify-end">
+        <div className="w-1/2 absolute right-0 pt-20 flex flex-row items-center justify-end">
           <Image
-            src="/hand.svg"
+            src="/newhand.svg"
             alt="smart device"
             width={500}
             height={100}
